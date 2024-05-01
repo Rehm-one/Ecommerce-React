@@ -1,0 +1,67 @@
+
+  
+
+:root {
+    --colorFondo: #393240c0;
+    --color-primario: #3366cc;
+    --color-botones: #323b4075;
+    --color-hover: red; 
+    --fuente-principal:  font-family: "Sanchez", serif;
+    --fuente-sucundaria:  font-family: "Montserrat", sans-serif;
+    --fuente-logo: font-family: "Sedgwick Ave Display", cursive;
+}
+
+
+body{ 
+    background-color: rgba(0, 0, 0, 0.523);
+    margin: 0;
+
+}
+h1{ 
+    color: var(--color-primario);
+    font-family:"Sedgwick Ave Display", cursive; 
+    font-weight: 400;
+    font-size: 4rem;
+    margin: 10px;
+    margin-left: 20px;
+    text-shadow: -2px 1px black;
+}
+.allNav{ 
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin: 0%;
+    gap: 100px;
+    background-color: var(--colorFondo);
+    font-family:"Sanchez", serif;
+   
+    
+}
+.barra { 
+
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    outline: none;
+    margin-right: 200px;    
+}
+button{ 
+    border: none;
+    border-radius: 10px;
+    background-color: var(--color-botones); 
+    margin: 25px;
+    padding: 10px 15px;
+    text-align: center;
+    font-family: var(--fuente-sucundaria);
+    font-weight: 400;
+    font-size: 1.7rem;
+    color: var(--color-primario);
+    
+    cursor: pointer;
+    transition: border-color 0.2s ease;
+}
+button:hover {
+    border: 2px solid var(--color-primario); /* Aplica un borde al pasar el cursor */
+}
